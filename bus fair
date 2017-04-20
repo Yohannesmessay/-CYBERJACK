@@ -1,0 +1,216 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="./Home_files/indexcss.css">
+<script src="./Home_files/indextabs.js.download" type="text/javascript"></script>
+</head>
+<body style="
+    margin: 0px;
+">
+	<div id="header">
+		<a href="Home.html"><img src="./Home_files/91.png" alt="logo" id="logo" style="
+    width: 4%;
+    margin-left: 2%;
+    padding-top: 30px;
+">
+		<h2 id="ome"><a style="
+">B<span style="font-family: sans-serif;">usfair</span></a></h2>
+		<div id="navigationbar">
+			<ul id="navigation">
+				<li id="boutusl"><a id="boutus">About Us</a></li>
+				<li id="oginl"><a id="ogin">Login</a></li>
+				<li id="egisterl"><a id="egister">Register</a></li>
+			</ul>
+		</div>
+	
+	<form id="sform" style="
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+">
+		<span id="arrow" style="position: relative;/* left: -8px; *//* background-color: #7d7d71; */padding: 4px 4px;top: 1;">
+<input id="search" type="text" placeholder="Search..." required="" style="
+    padding: 3px 5px;
+">
+</span>
+		<input id="sbutton" type="button" value="search" style="
+    position: relative;
+    padding: 3px 5px;
+    left: -8px;
+    border: 2px solid #7d7d71;
+    color: white;
+    background-color: #7d7d71;
+">
+	</form>
+	
+	</div>
+	
+	<div id="unregistereduser">
+		
+		<div id="pictureintro" style="
+">
+			<img src="./Home_files/jumbotron.jpg" id="picintro" alt="intro">
+		</div>
+	<div style="
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+">
+		<h1 style="
+    font-family: fantasy;
+    font-size: 3.5em;
+    color: white;
+">Bus-Fair</h1>
+		<p style="
+    font-family: century;
+    color: white;
+    font-size: 1.5em;
+">Online bus ticket reservation platform</p>
+		
+	</div>
+		
+	<div id="tobeposted">
+		<h2 style="
+    	text-align: center;
+    	font-size: 50px;
+    	margin-top: 0;
+		"><i>Announcemenst</i></h2>
+			
+			<p style="
+		    font-size: 20;
+	   		margin-left: 10px;
+			">These are the contents/current information that will<br>
+			be posted by the Administrator.</p>
+	</div>
+	
+	</div>
+
+	<div id="aboutus" style="height: 100%;background-color: rgb(41, 46, 47);">
+		
+		<div style="
+    width: 48%;
+    color: white;
+    text-align: center;
+    height: 60%;
+    float: left;
+    position: absolute;
+    border-right-color: white;
+    border-right-style: solid;
+    margin-top: 7%;
+">
+	<h2 style="
+    font-size: 300%;
+">Overview</h2>
+	<p style="
+    font-size: 150%;
+    text-align: justify;
+    padding: 4%;
+">Bus-fair is a web-based application that allows visitors check bus ticket availability, reserve bus tickets and pay for the bus ticket online. Bus-fair also provides bus transportation systems, a facility to reserve seats and cancel them.</p>
+		</div>
+		
+		<div style="
+    width: 50%;
+    height: 60%;
+    float: right;
+    margin-top: 7%;
+    position: relative;
+">	<h2 style="
+    font-size: 300%;
+    color: white;
+    text-align: center;
+">Contact Us</h2>
+	<ul style="
+    color: white;
+    font-size: 150%;
+    padding: 6%;
+">
+		<li>email :  admin@busfair.com</li>
+		<li>telephone : +251115555555</li>
+		<li>location : Addis Ababa, 5 kilo, AAiT</li>
+	</ul>
+		</div>
+	
+	</div>
+
+	<div id="login" >
+	<img src="./Home_files/new.jpg" alt="bus" style="
+    width: 100%;
+    height: 100vh;
+">  
+		<div id="loginform">
+		
+			<h2 style="
+    border-bottom-style: solid;
+    border-color: #6d4e28;
+">Login</h2>
+		
+			<form id="formid" method="POST" action="login">		
+				
+				<input placeholder="username" class="box" type="text" name="username">
+					
+					<br>
+					<br>
+				
+				<input placeholder="password" class="box" type="password" name="password">
+				
+					<br>
+					<br>
+					<br>
+  
+				<input id="button" type="submit" name="submit" value="login">
+			
+			</form>
+		
+		</div>
+	</div>
+
+	<div id="register" ">
+  		<img src="./Home_files/new(1).jpg" style="
+    width: 100%;
+    height: 100vh;
+">
+		<div id="signupform">
+            <h2 style="
+    border-bottom-style: solid;
+    border-color: #6d4e28;
+">Sign Up</h2>
+            
+            <form id="formid" method="POST" action="Home.html" http:="" localhost="" new="" public="" register""="">
+                    <input type="hidden" name="_token" value="ilQi9fakstzjYcUf7I6FILXMudGpdNkpnF34Z9Ur">
+                <input placeholder="email" class="box" type="text" name="email" value="" required="">
+                <br>
+                <br>
+                <input placeholder="name" class="box" type="text" name="name" value="" required="" autofocus="">
+                <br>
+                <br>
+                <input placeholder="password" class="box" type="password" name="password" required="">
+                <br>
+                <br>
+                <input placeholder="password" class="box" type="password" name="password_confirmation" required="">
+                <br>
+                <br>
+        <input id="button" type="submit">
+        <br><br>
+        
+
+            </form>
+        </div>
+	</div>
+
+
+	
+	<div id="footer" style="
+    text-align: center;
+    background-color: rgba(21, 34, 37, 0.85);
+    color: white;
+    position: fixed;
+    height: 70;
+    bottom: 0px;
+    width: 100%;
+">
+		<p style="
+    padding-top: 10px;
+">AAiT @ 2017 </p>
+	</div>
+
+</body></html>
